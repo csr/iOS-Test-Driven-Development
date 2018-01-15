@@ -32,3 +32,20 @@ Example project from a iOS TDD workshop.
 ## Built-in assert functions
 * `XCTAssertTrue`, `XCTAssertFalse`, `XCTAssertEqual`, `XCTAssertEqualWithAccuracy`, `XCTAssertNotEqual`, `XCTAssertNil`, `XCTAssertNotNil`, `XCTFail`.
 * They all boil down to `XCTAssertTrue`, but try to use the more precise assertions whenever possible so that you get better debug messages in the console.
+
+## Understanding TDD
+* Kent Beck introduced a new software development methodology called Extreme Programming: all tests should pass before the software can be released to customers.
+* Also, all parts of code should be thoroughly tested.
+* Tests should be written before the production code that they test (test-first programming).
+* Devlelopers should write code because there is a test that fails.
+* The focus is on just one feature at a time.
+
+## The three rules of TDD:
+* You're not allowed to write production code unless it is to pass a failing test.
+* You're not allowed to write any more of a unit test that is sufficient to fail.
+* You're not allowed to write any more production code that is sufficient to pass the one failing unit test.
+
+## The TDD workflow: red, gree, refactor
+* Red: write a failing test. It's important that the test fails, otherwise you can't ensure that the test works.
+* Green: you write the simplest code that makes the test pass (it doesn't matter that the code is good and clean).
+* Refactor: improve the code (remove duplication, extract common values). Make the code as good as possible.
