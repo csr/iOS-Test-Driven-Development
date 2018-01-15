@@ -31,4 +31,4 @@ Example project from a iOS TDD workshop.
 
 ## Built-in assert functions
 * `XCTAssertTrue`, `XCTAssertFalse`, `XCTAssertEqual`, `XCTAssertEqualWithAccuracy`, `XCTAssertNotEqual`, `XCTAssertNil`, `XCTAssertNotNil`, `XCTFail`.
-* They all boil down to `XCTAssertTrue`, but try to use the more precise assertions whenever possible so that you get better error messages in the log.
+* They all boil down to `XCTAssertTrue`, but try to use the more precise assertions whenever possible so that you get better debug messages in the console.
