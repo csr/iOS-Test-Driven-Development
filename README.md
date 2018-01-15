@@ -28,3 +28,7 @@ Example project from a iOS TDD workshop.
 * `XCTAssertEqual` checks if the result is what we expected.
 * The green diamond is a sign that the test was successfull (pass).
 * With unit tests you don't have to worry about breaking the feature when changing the code implementation.
+
+## Built-in assert functions
+* `XCTAssertTrue`, `XCTAssertFalse`, `XCTAssertEqual`, `XCTAssertEqualWithAccuracy`, `XCTAssertNotEqual`, `XCTAssertNil`, `XCTAssertNotNil`, `XCTFail`.
+* They all boil down to `XCTAssertTrue`, but try to use the more precise assertions whenever possible so that you get better error messages in the log.
