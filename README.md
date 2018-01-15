@@ -22,3 +22,9 @@ Example project from a iOS TDD workshop.
 * The `tearDown()` method runs last.
 * The `measure` closure runs 10 times and calculates the average duration of that portion of the code (performance tests).
 * All test methods must start with `test`, so you can easily disable a test by removing the prefix.
+
+## Things to know
+* To run unit tests, press command + U.
+* `XCTAssertEqual` checks if the result is what we expected.
+* The green diamond is a sign that the test was successfull (pass).
+* With unit tests you don't have to worry about breaking the feature when changing the code implementation.
