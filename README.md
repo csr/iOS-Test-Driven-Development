@@ -17,7 +17,8 @@ Example project from a iOS TDD workshop.
 ## Unit test file
 * It's a good practice to have a test case for each class in the main target.
 * Every test case needs to import the `XCTest` framework (it defines the `XCTestCase` class and test assertions).
-* `@testablle import FirstDemo` imports your main app module.
+* `@testable import FirstDemo` imports your main app module.
 * `setUp` is called before the invocation of each test method in the `XCTestCase` test class. 
 * The `tearDown()` method runs last.
 * The `measure` closure runs 10 times and calculates the average duration of that portion of the code (performance tests).
+* All test methods must start with `test`, so you can easily disable a test by removing the prefix.
