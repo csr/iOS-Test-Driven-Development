@@ -34,7 +34,7 @@ Example project from a iOS TDD workshop.
 * They all boil down to `XCTAssertTrue`, but try to use the more precise assertions whenever possible so that you get better debug messages in the console.
 
 ## Understanding TDD
-* Kent Beck introduced a new software development methodology called Extreme Programming: all tests should pass before the software can be released to customers.
+* Kent Beck introduced a new software development methodology called Extreme Programming: all tests should pass before the software can be released to customers. Core Data was written with TDD.
 * Also, all parts of code should be thoroughly tested.
 * Tests should be written before the production code that they test (test-first programming).
 * Devlelopers should write code because there is a test that fails.
