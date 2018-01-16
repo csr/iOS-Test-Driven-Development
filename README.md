@@ -1,6 +1,8 @@
 # iOS Test Driven Development
 
-Example project from a iOS TDD workshop.
+
+## Includes
+Example iOS projects built using TDD.
 
 ## Introduction
 
