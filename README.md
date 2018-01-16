@@ -45,7 +45,12 @@ Example project from a iOS TDD workshop.
 * You're not allowed to write any more of a unit test that is sufficient to fail.
 * You're not allowed to write any more production code that is sufficient to pass the one failing unit test.
 
-## The TDD workflow: red, gree, refactor
+## The TDD workflow: red, green, refactor
 * Red: write a failing test. It's important that the test fails, otherwise you can't ensure that the test works.
 * Green: you write the simplest code that makes the test pass (it doesn't matter that the code is good and clean).
 * Refactor: improve the code (remove duplication, extract common values). Make the code as good as possible.
+
+## Writing unit tests
+* Precondition: set up work
+* Invocation: figure out the method signature
+* Assertion: expected result
