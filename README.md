@@ -56,3 +56,7 @@ Example iOS projects built using TDD.
 * Precondition: set up work
 * Invocation: figure out the method signature
 * Assertion: expected result
+
+## Debugging unit tests
+* You can use breakpoints.
+* Put a breakpoint on the line of the error and use the `po variableName` ("print object") command to print the variable.
